@@ -1,3 +1,3 @@
 # README
 
-administrateの脱却の検証
+administrate脱却の検証
