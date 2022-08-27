@@ -1,0 +1,20 @@
+<header class="main-content__header" role="banner">
+  <h1 class="main-content__page-title">
+    <%= @user.id %>:<%= @user.name %>
+  </h1>
+
+  <div>
+    <a class="button" href="/admin/users/1/edit">Edit</a>
+  </div>
+</header>
+
+<section class="main-content__body">
+  <dl>
+    <dt class="attribute-label" id="id">Id</dt>
+    <dd class="attribute-data attribute-data--number"><%= @user.id %></dd>
+    <dt class="attribute-label" id="age">Name</dt>
+    <dd class="attribute-data attribute-data--number"><%= @user.name %></dd>
+    <dt class="attribute-label" id="name">Age</dt>
+    <dd class="attribute-data attribute-data--string"><%= @user.age %></dd>
+  </dl>
+</section>
